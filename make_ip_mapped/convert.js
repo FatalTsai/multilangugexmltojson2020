@@ -1,57 +1,85 @@
 var fs = require('fs')
+const { merge } = require('lodash')
 var keymap = JSON.parse(fs.readFileSync('keymap.json'))
 var clear = JSON.parse(fs.readFileSync('clear.json'))
+var path = require('path')
 //console.log(keymap)
 
 var convert = function(filepath){
-    var theirdata = fs.readFileSync(filepath)
-    theirdata = JSON.parse(theirdata)
-    theirdata = theirdata.LangDef.LangID
-    //console.log(theirdata)
-    theirdata.forEach(theirelement => {
-        var pos=keymap[theirelement._ID]
-        //console.log(element._ID)
-        //console.log(pos)
-        var modifyele = clear
-        for(var i=0;i<pos.length;i++)
+    var clientdata = JSON.parse(fs.readFileSync(filepath))
+    var result = JSON.parse(fs.readFileSync('en.json'))
+
+    //console.log(clientdata)
+
+    Object.keys(clientdata).forEach(function(key, val){
+        var pos = keymap[key]
+        console.log(pos)
+        if(pos.length == 0)
         {
-            console.log(pos)
-            var pos2 = pos[i]
-            console.log(pos2)
-            for(var j=0;j<pos2.length;j++)
-            {
-                modifyele = modifyele[pos2[j]]
-                console.log(modifyele)
-            }
+            result[key] = clientdata[key]
         }
-        //console.log(modifyele)
+        else 
+        {
+            pos.forEach(element => {
+                var core = clientdata[key]
+                element = element.reverse()
+                var tmp = ''
+                //console.log('tmp = '+tmp)
+                for(var i =0;i<element.length;i++){
+                    tmp = JSON.stringify(core)
+                    //console.log('tmp = '+tmp)
+                    core = {}
+                    core[element[i]] = JSON.parse(tmp)
+                }
+                console.log(core)
+                merge(result,core)
+    
+
+            });
+         
+
+        }
+
 
     });
     
-
-
+    console.log(result)
+    return result
 }
 
+var parseclientJson = function(filepath)
+{
+    var English  = fs.readFileSync(filepath);
+    English = JSON.parse(English)
+    //console.log(English.LangDef.LangID)
+    English = English.LangDef.LangID
+    console.log(English)
+    var result = {}
+
+    English.forEach(element => {
+        result[element._ID] = element._Text
+    });
+   // console.log(result)
+
+    fs.writeFileSync('parsejson/'+path.parse(filepath).name+'.json',JSON.stringify(result))
+    
+}
+
+//parseclientJson('English_28US29.json')
 //console.log(clear[ 'setting', 'updateSubMenu', 'cancelDownload' ])
-//convert('English_28US29.json')
+//onvert('English_28US29_2.json')
 
-var filepath ='English_28US29.json'
+var rawjsonls = fs.readdirSync('../rawjson')
+//console.log(fs.readdirSync('../rawjson'))
+rawjsonls.forEach(element => {
+    data = parseclientJson(path.join('../rawjson',element) )
+    console.log(data)
+});
 
-var theirdata = fs.readFileSync(filepath)
-theirdata = JSON.parse(theirdata)
-theirdata = theirdata.LangDef.LangID
+var parsejsonls = fs.readdirSync('./parsejson')
+console.log(parsejsonls)
+parsejsonls.forEach(element => {
+    data = convert(path.join('./parsejson',element) )
+    fs.writeFileSync(path.join('./finish/')+path.parse(element).name+'.json',JSON.stringify(data))
 
-
-var pos=keymap['Software_Legals_Headline']
-console.log(pos[0]) //[ 'setting', 'updateSubMenu', 'legalInformation' ]
-var pos2 = pos[0].reverse() 
-
-
-var core= theirdata['Software_Legals_Headline']
-for(var i =0;i<pos2.length;i++){
-    tmp = JSON.stringify(core)
-    core = {}
-    core[pos2[i]] = JSON.parse(tmp)
-}
-
-console.log(core)
+});

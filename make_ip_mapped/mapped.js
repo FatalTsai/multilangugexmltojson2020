@@ -59,11 +59,12 @@ var searchelement = function(target,jsondata,depth,parent){
             }*/
         }
         else if(typeof(jsondata[key]) == 'string'){
-            //console.log(space +jsondata[key])
+           // console.log(space +jsondata[key])
             //console.log(jsondata[key]=='Software')
             //console.log(jsondata[key]== target)
             if(jsondata[key] == target )
             {   
+                //console.log(jsondata[key])
                 var tmp2 = lodash.cloneDeep(parent)
                 tmp2.push(key)
                 //targetkey.push(tmp2)
@@ -97,7 +98,7 @@ var keytokeymap = function(){
     //using English text to find en
     English.forEach(element => {
         target_pos=[]
-        searchelement(element._Text,clear,0,[])
+        searchelement(element._Text,en,0,[])
         console.log(element._ID)
         console.log(target_pos)
         /*keymap.push({
@@ -105,8 +106,8 @@ var keytokeymap = function(){
             "ourkey":target_pos
         })
 
-        keymap[element._ID] = target_pos
     });*/
+        keymap[element._ID] = target_pos
 
     })
     fs.writeFileSync('keymap.json',JSON.stringify(keymap))
@@ -159,5 +160,8 @@ var makeclearfile =function()
 }
 
 
+
 //makeclearfile()
 keytokeymap()
+
+

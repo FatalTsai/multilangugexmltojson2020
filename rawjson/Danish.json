@@ -1,0 +1,965 @@
+{
+   "LangDef": {
+      "LangID": [
+         {
+            "_ID": "Audio_Sync_Headline",
+            "_Text": "Audio sync"
+         },
+         {
+            "_ID": "Audio_Sync_Main_Text",
+            "_Text": "Manual adjustment"
+         },
+         {
+            "_ID": "BTN_Cancel",
+            "_Text": "Annuller"
+         },
+         {
+            "_ID": "BTN_DELETE",
+            "_Text": "Slet"
+         },
+         {
+            "_ID": "BTN_INSTALL",
+            "_Text": "Install"
+         },
+         {
+            "_ID": "BTN_LATER",
+            "_Text": "Sen"
+         },
+         {
+            "_ID": "BTN_Left",
+            "_Text": "Left"
+         },
+         {
+            "_ID": "BTN_NO",
+            "_Text": "Nej"
+         },
+         {
+            "_ID": "BTN_OK",
+            "_Text": "OK"
+         },
+         {
+            "_ID": "BTN_RETRY",
+            "_Text": "Igen"
+         },
+         {
+            "_ID": "BTN_Right",
+            "_Text": "Right"
+         },
+         {
+            "_ID": "BTN_SAVE",
+            "_Text": "Gem"
+         },
+         {
+            "_ID": "BTN_START",
+            "_Text": "START"
+         },
+         {
+            "_ID": "BTN_YES",
+            "_Text": "Ja"
+         },
+         {
+            "_ID": "Blocked_Browser_Headline",
+            "_Text": "Remote link"
+         },
+         {
+            "_ID": "Blocked_Browser_Main_Text",
+            "_Text": "Scan the QR code to view on your device:"
+         },
+         {
+            "_ID": "Bluetooth_Audio_Sync_Complete",
+            "_Text": "Audio sync complete"
+         },
+         {
+            "_ID": "Bluetooth_Audio_Sync_Error",
+            "_Text": "Audio sync failed\\nPlease try again later"
+         },
+         {
+            "_ID": "Bluetooth_Audio_Sync_Headline",
+            "_Text": "Audio sync"
+         },
+         {
+            "_ID": "Bluetooth_Audio_Sync_In_Progress",
+            "_Text": "Syncing...\\n{0}%"
+         },
+         {
+            "_ID": "Bluetooth_Audio_Sync_Main_Text",
+            "_Text": "Hold headphones near\\nmicrophone on screen\\nand press start. \\nAudio will be muted\\nduring the sync process."
+         },
+         {
+            "_ID": "Bluetooth_Headline",
+            "_Text": "Bluetooth audio output"
+         },
+         {
+            "_ID": "Bluetooth_Status",
+            "_Text": "OUTPUT"
+         },
+         {
+            "_ID": "Bluetooth_Visibility_Main_Text",
+            "_Text": "Pairing new headphones?\\nHeadphones must be in pairing mode"
+         },
+         {
+            "_ID": "Cancel_Download_Headline",
+            "_Text": "Softwareopdatering"
+         },
+         {
+            "_ID": "Cancel_Download_Main_Text",
+            "_Text": "Are you sure you want to\\ncancel the download?"
+         },
+         {
+            "_ID": "Checkbox_Text",
+            "_Text": "Vis ikke igen"
+         },
+         {
+            "_ID": "Child_Lock_Activated_Notification",
+            "_Text": "Child lock has been activated"
+         },
+         {
+            "_ID": "Child_Lock_Active_Notification",
+            "_Text": "Child lock is active"
+         },
+         {
+            "_ID": "Child_Lock_Deactivated_Notification",
+            "_Text": "Child lock has been deactivated"
+         },
+         {
+            "_ID": "Connection_Assistant_1_Headline",
+            "_Text": "Connection assistant 1 of 2"
+         },
+         {
+            "_ID": "Connection_Assistant_2_Headline",
+            "_Text": "Connection assistant 2 of 2"
+         },
+         {
+            "_ID": "Connection_Assistant_Headline",
+            "_Text": "Connection assistant"
+         },
+         {
+            "_ID": "Connection_Assistant_Help_Text",
+            "_Text": "Or press the power button below\\nto open the quick menu"
+         },
+         {
+            "_ID": "Connection_Assistant_QR_Code_1_Main_Text",
+            "_Text": "Scan the QR code to connect to\\nthe screen via Wi-Fi"
+         },
+         {
+            "_ID": "Connection_Assistant_QR_Code_2_Main_Text",
+            "_Text": "Scan the QR code to download the\\nBentley Entertainment Control app"
+         },
+         {
+            "_ID": "Connection_Failed_Headline",
+            "_Text": "Wi-Fi input"
+         },
+         {
+            "_ID": "Connection_Failed_Main_Text",
+            "_Text": "Network connection could\\nnot be established"
+         },
+         {
+            "_ID": "Connection_Failed_Password_Headline",
+            "_Text": "Wi-Fi input"
+         },
+         {
+            "_ID": "Connection_Failed_Password_Main_Text",
+            "_Text": "Forbindelsen mislykkedes"
+         },
+         {
+            "_ID": "Crosslink_Headline",
+            "_Text": "Crosslink setup"
+         },
+         {
+            "_ID": "Crosslink_Host_Main_Text",
+            "_Text": "A crosslink pairing process has been initiated"
+         },
+         {
+            "_ID": "Crosslink_Host_SSID_Text",
+            "_Text": "SSID: {0}"
+         },
+         {
+            "_ID": "Crosslink_Host_Waiting_Text",
+            "_Text": "Vent venligst..."
+         },
+         {
+            "_ID": "Crosslink_Pairing_Name_Text",
+            "_Text": "Screen name: {0}"
+         },
+         {
+            "_ID": "Crosslink_Pairing_Successful_Text",
+            "_Text": "Crosslink setup successful"
+         },
+         {
+            "_ID": "Crosslink_Pairing_Text",
+            "_Text": "Pairing..."
+         },
+         {
+            "_ID": "Crosslink_Screen_Main_Text",
+            "_Text": "Please select the side of the vehicle\\nyou would like to assign to this screen"
+         },
+         {
+            "_ID": "Crosslink_Searching_Text",
+            "_Text": "Søgning..."
+         },
+         {
+            "_ID": "Delete_Device_Main_Text",
+            "_Text": "Er du sikker på, at du ønsker?"
+         },
+         {
+            "_ID": "Delete_Install_Headline",
+            "_Text": "Softwareopdatering"
+         },
+         {
+            "_ID": "Delete_Install_Main_Text",
+            "_Text": "Are you sure you want to\\ndelete the software update?"
+         },
+         {
+            "_ID": "Delete_Network_Main_Text",
+            "_Text": "Are you sure you want to delete this network?"
+         },
+         {
+            "_ID": "Device_Search_Menu_Text",
+            "_Text": "Søgning..."
+         },
+         {
+            "_ID": "Download_Failed_Headline",
+            "_Text": "Softwareopdatering"
+         },
+         {
+            "_ID": "Download_Failed_Main_Text",
+            "_Text": "Software download failed\\nWould you like to retry?"
+         },
+         {
+            "_ID": "Help_Headline",
+            "_Text": "Brugervejledning"
+         },
+         {
+            "_ID": "IVI_Active_Status",
+            "_Text": "Audio output to car"
+         },
+         {
+            "_ID": "IVI_Delete_Confirm",
+            "_Text": "Are you sure you want to delete\\n{0}? \\nNote: audio output to car speakers\\nwill no longer be available."
+         },
+         {
+            "_ID": "IVI_Headline",
+            "_Text": "Audio output to car"
+         },
+         {
+            "_ID": "IVI_Main_Text",
+            "_Text": "Please select the screen name as the Bluetooth\\naudio source on the infotainment system.\\nMaximum volume is determined by the\\ninfotainment master volume."
+         },
+         {
+            "_ID": "IVI_Pairing_Failed",
+            "_Text": "Pairing failed\\nPlease try again later"
+         },
+         {
+            "_ID": "IVI_Pairing_Headline",
+            "_Text": "Audio output to car"
+         },
+         {
+            "_ID": "IVI_Pairing_Search",
+            "_Text": "Søgning..."
+         },
+         {
+            "_ID": "IVI_Sync_Complete",
+            "_Text": "Audio sync complete"
+         },
+         {
+            "_ID": "IVI_Sync_Error",
+            "_Text": "Fejl opstået\\nForsøg igen senere"
+         },
+         {
+            "_ID": "IVI_Sync_In_Progress",
+            "_Text": "Syncing...\\n{0}%"
+         },
+         {
+            "_ID": "IVI_Sync_Main_Text",
+            "_Text": "Select the screen name as the\\nBluetooth audio source on\\nthe infotainment system.\\nCheck the volume and\\nreduce background noise.\\nPress START when the\\nsystem is ready."
+         },
+         {
+            "_ID": "Install_Active_Headline",
+            "_Text": "Bemærk"
+         },
+         {
+            "_ID": "Install_Active_Main_Text",
+            "_Text": "Installing update\\n{0}% complete\\n\\nPlease ensure the vehicle is switched on\\nuntil the update is completed\\n\\nThe system will restart\\nonce the install is complete"
+         },
+         {
+            "_ID": "Install_Available_Headline",
+            "_Text": "Softwareopdatering"
+         },
+         {
+            "_ID": "Install_Available_Main_Text",
+            "_Text": "Software install available\\nWould you like to install now?\\n\\nDuring the update the system\\nwill be inoperable"
+         },
+         {
+            "_ID": "Install_Delete_Headline",
+            "_Text": "Softwareopdatering"
+         },
+         {
+            "_ID": "Install_Delete_Main_Text",
+            "_Text": "Do you want to install or delete\\nthe update?\\n\\nDuring the software update process\\nthe system will be inoperable"
+         },
+         {
+            "_ID": "Install_Failed_Headline",
+            "_Text": "Softwareopdatering"
+         },
+         {
+            "_ID": "Install_Failed_Main_Text",
+            "_Text": "Software install failed\\nWould you like to retry?"
+         },
+         {
+            "_ID": "Install_Successful_Headline",
+            "_Text": "Softwareopdatering"
+         },
+         {
+            "_ID": "Install_Successful_Main_Text",
+            "_Text": "Install successful\\nSoftware updated"
+         },
+         {
+            "_ID": "Language_Arabic",
+            "_Text": "العربية"
+         },
+         {
+            "_ID": "Language_Cantonese",
+            "_Text": "繁體中文"
+         },
+         {
+            "_ID": "Language_Chinese",
+            "_Text": "简体中文"
+         },
+         {
+            "_ID": "Language_Czech",
+            "_Text": "Čeština"
+         },
+         {
+            "_ID": "Language_Danish",
+            "_Text": "Dansk"
+         },
+         {
+            "_ID": "Language_Dutch",
+            "_Text": "Nederlands"
+         },
+         {
+            "_ID": "Language_English_UK",
+            "_Text": "English (UK)"
+         },
+         {
+            "_ID": "Language_English_US",
+            "_Text": "English (US)"
+         },
+         {
+            "_ID": "Language_French",
+            "_Text": "Français"
+         },
+         {
+            "_ID": "Language_French_Can",
+            "_Text": "Français (Canada)"
+         },
+         {
+            "_ID": "Language_German",
+            "_Text": "Deutsch"
+         },
+         {
+            "_ID": "Language_Greek",
+            "_Text": "Ελληνικά"
+         },
+         {
+            "_ID": "Language_Headline",
+            "_Text": "Sprog (Language)"
+         },
+         {
+            "_ID": "Language_Hungarian",
+            "_Text": "Magyar"
+         },
+         {
+            "_ID": "Language_Italian",
+            "_Text": "Italiano"
+         },
+         {
+            "_ID": "Language_Japanese",
+            "_Text": "日本語"
+         },
+         {
+            "_ID": "Language_Korean",
+            "_Text": "한국어"
+         },
+         {
+            "_ID": "Language_Norwegian",
+            "_Text": "Norsk"
+         },
+         {
+            "_ID": "Language_Polish",
+            "_Text": "Polski"
+         },
+         {
+            "_ID": "Language_Port_Br",
+            "_Text": "Português (Brasil)"
+         },
+         {
+            "_ID": "Language_Portuguese",
+            "_Text": "Português"
+         },
+         {
+            "_ID": "Language_Preview_Arabic",
+            "_Text": "العربية"
+         },
+         {
+            "_ID": "Language_Preview_Cantonese",
+            "_Text": "繁體中文"
+         },
+         {
+            "_ID": "Language_Preview_Chinese",
+            "_Text": "简体中文"
+         },
+         {
+            "_ID": "Language_Preview_Czech",
+            "_Text": "Čeština"
+         },
+         {
+            "_ID": "Language_Preview_Danish",
+            "_Text": "Dansk"
+         },
+         {
+            "_ID": "Language_Preview_Dutch",
+            "_Text": "Nederlands"
+         },
+         {
+            "_ID": "Language_Preview_English_UK",
+            "_Text": "English (UK)"
+         },
+         {
+            "_ID": "Language_Preview_English_US",
+            "_Text": "English (US)"
+         },
+         {
+            "_ID": "Language_Preview_French",
+            "_Text": "Français"
+         },
+         {
+            "_ID": "Language_Preview_French_Can",
+            "_Text": "Français (Canada)"
+         },
+         {
+            "_ID": "Language_Preview_German",
+            "_Text": "Deutsch"
+         },
+         {
+            "_ID": "Language_Preview_Greek",
+            "_Text": "Ελληνικά"
+         },
+         {
+            "_ID": "Language_Preview_Hungarian",
+            "_Text": "Magyar"
+         },
+         {
+            "_ID": "Language_Preview_Italian",
+            "_Text": "Italiano"
+         },
+         {
+            "_ID": "Language_Preview_Japanese",
+            "_Text": "日本語"
+         },
+         {
+            "_ID": "Language_Preview_Korean",
+            "_Text": "한국어"
+         },
+         {
+            "_ID": "Language_Preview_Norwegian",
+            "_Text": "Norsk"
+         },
+         {
+            "_ID": "Language_Preview_Polish",
+            "_Text": "Polski"
+         },
+         {
+            "_ID": "Language_Preview_Port_Br",
+            "_Text": "Português (Brasil)"
+         },
+         {
+            "_ID": "Language_Preview_Portuguese",
+            "_Text": "Português"
+         },
+         {
+            "_ID": "Language_Preview_Romanian",
+            "_Text": "Română"
+         },
+         {
+            "_ID": "Language_Preview_Russian",
+            "_Text": "Русский"
+         },
+         {
+            "_ID": "Language_Preview_Spanish",
+            "_Text": "Español"
+         },
+         {
+            "_ID": "Language_Preview_Spanish_US",
+            "_Text": "Español (México)"
+         },
+         {
+            "_ID": "Language_Preview_Swedish",
+            "_Text": "Svenska"
+         },
+         {
+            "_ID": "Language_Preview_Taiwanese",
+            "_Text": "繁體中文 (台灣)"
+         },
+         {
+            "_ID": "Language_Preview_Turkish",
+            "_Text": "Türkçe"
+         },
+         {
+            "_ID": "Language_Romanian",
+            "_Text": "Română"
+         },
+         {
+            "_ID": "Language_Russian",
+            "_Text": "Русский"
+         },
+         {
+            "_ID": "Language_Spanish",
+            "_Text": "Español"
+         },
+         {
+            "_ID": "Language_Spanish_US",
+            "_Text": "Español (México)"
+         },
+         {
+            "_ID": "Language_Swedish",
+            "_Text": "Svenska"
+         },
+         {
+            "_ID": "Language_Taiwanese",
+            "_Text": "繁體中文 (台灣)"
+         },
+         {
+            "_ID": "Language_Turkish",
+            "_Text": "Türkçe"
+         },
+         {
+            "_ID": "Max_Volume_Notification",
+            "_Text": "Screen volume set to maximum.\\nIncrease your infotainment system volume."
+         },
+         {
+            "_ID": "Menu_Download_Active",
+            "_Text": "Cancel download"
+         },
+         {
+            "_ID": "Menu_Download_Active_Preview",
+            "_Text": "{0}%"
+         },
+         {
+            "_ID": "Menu_Help_Crosslink",
+            "_Text": "Select CROSSLINK to view content currently shown\\non the companion screen. Note: if selecting crosslink\\nwhen audio sharing is active, audio and volume\\ncontrols are unavailable."
+         },
+         {
+            "_ID": "Menu_Help_HDMI",
+            "_Text": "Content can be played from a HDMI source\\nwhen a compatible device is connected.\\nNote: if no content is playing on the HDMI device\\nwhen selected, the screen will appear blank."
+         },
+         {
+            "_ID": "Menu_Help_Input",
+            "_Text": "Select INPUT to connect to a Wi-Fi network.\\nThis enables you to stream content through \\nexternal providers or to establish a connection\\nwith your device to share content."
+         },
+         {
+            "_ID": "Menu_Help_Intro",
+            "_Text": "The Bentley Entertainment System allows you to view\\nand hear content from your mobile device connected\\nvia Wi-Fi or from a compatible device connected\\nthrough HDMI or USB."
+         },
+         {
+            "_ID": "Menu_Help_Output",
+            "_Text": "Select OUTPUT to connect Bluetooth headphones\\nor press the audio sharing button to\\nsend audio output to the car speakers.\\nAudio is also available through wired headphones."
+         },
+         {
+            "_ID": "Menu_Help_Source",
+            "_Text": "Select SOURCE to choose your desired content.\\nYou can view content from external providers\\nby selecting the service from the list shown. \\nThe browser can also be reset in this menu."
+         },
+         {
+            "_ID": "Menu_Help_USB",
+            "_Text": "Media can be played through a compatible device\\nconnected via USB when using the\\nBentley Entertainment Control app."
+         },
+         {
+            "_ID": "Menu_Install_Update",
+            "_Text": "Install update"
+         },
+         {
+            "_ID": "Menu_Settings_Acoustic_Feedback",
+            "_Text": "Akustisk feedback"
+         },
+         {
+            "_ID": "Menu_Settings_Audio_Sync",
+            "_Text": "Audio sync"
+         },
+         {
+            "_ID": "Menu_Settings_Brightness_Persistence",
+            "_Text": "Brightness persistence"
+         },
+         {
+            "_ID": "Menu_Settings_Connection_Assistant",
+            "_Text": "Connection assistant"
+         },
+         {
+            "_ID": "Menu_Settings_IVI_Pairing",
+            "_Text": "Audio output to car"
+         },
+         {
+            "_ID": "Menu_Settings_Language",
+            "_Text": "Sprog (Language)"
+         },
+         {
+            "_ID": "Menu_Settings_Screen_Off",
+            "_Text": "Sluk skærm"
+         },
+         {
+            "_ID": "Menu_Settings_Screen_Timeout",
+            "_Text": "Skærmens timeout"
+         },
+         {
+            "_ID": "Menu_Settings_Software",
+            "_Text": "Software"
+         },
+         {
+            "_ID": "Menu_Settings_Volume_Persistence",
+            "_Text": "Volume persistence"
+         },
+         {
+            "_ID": "Menu_Software_Analytics",
+            "_Text": "Analytic feedback"
+         },
+         {
+            "_ID": "Menu_Software_Legal_Information",
+            "_Text": "Juridiske informationer"
+         },
+         {
+            "_ID": "Menu_Software_Reset",
+            "_Text": "Gendan fabriksindstillinger"
+         },
+         {
+            "_ID": "Menu_Software_Update",
+            "_Text": "Check for updates"
+         },
+         {
+            "_ID": "Menu_Software_Update_Check",
+            "_Text": "Checking for updates..."
+         },
+         {
+            "_ID": "Menu_Software_Version",
+            "_Text": "Softwareinformationer"
+         },
+         {
+            "_ID": "Network_Search_Main_Text",
+            "_Text": "Søgning..."
+         },
+         {
+            "_ID": "No_Connection_Status",
+            "_Text": "Ingen forbindelse"
+         },
+         {
+            "_ID": "No_Device_Status",
+            "_Text": "No Bluetooth device"
+         },
+         {
+            "_ID": "No_Devices_Main_Text",
+            "_Text": "Ingen enheder fundet"
+         },
+         {
+            "_ID": "No_Updates_Headline",
+            "_Text": "Softwareopdatering"
+         },
+         {
+            "_ID": "No_Updates_Main_Text",
+            "_Text": "No updates available"
+         },
+         {
+            "_ID": "Notification_Bluetooth_Unavailable",
+            "_Text": "Bluetooth is currently unavailable"
+         },
+         {
+            "_ID": "Notification_Brightness_Unavailable",
+            "_Text": "Brightness controls are currently unavailable"
+         },
+         {
+            "_ID": "Notification_Child_Lock_Unavailable",
+            "_Text": "Child lock is currently unavailable"
+         },
+         {
+            "_ID": "Notification_Connecting",
+            "_Text": "Connecting..."
+         },
+         {
+            "_ID": "Notification_Crosslink_Unavailable",
+            "_Text": "Crosslink is currently unavailable"
+         },
+         {
+            "_ID": "Notification_Error_Reconnect",
+            "_Text": "Connection lost. Attempting to reconnect..."
+         },
+         {
+            "_ID": "Notification_Full_Screen_Unavailable",
+            "_Text": "Full screen mode is currently unavailable"
+         },
+         {
+            "_ID": "Notification_HDMI_Unavailable",
+            "_Text": "HDMI is currently unavailable"
+         },
+         {
+            "_ID": "Notification_Help_Unavailable",
+            "_Text": "User guide is currently unavailable"
+         },
+         {
+            "_ID": "Notification_IVI_Unavailable",
+            "_Text": "Audio sharing is currently unavailable"
+         },
+         {
+            "_ID": "Notification_Initialising",
+            "_Text": "Initialising..."
+         },
+         {
+            "_ID": "Notification_Mute_Unavailable",
+            "_Text": "Mute is currently unavailable"
+         },
+         {
+            "_ID": "Notification_OTT_Unavailable",
+            "_Text": "External content provider is unavailable"
+         },
+         {
+            "_ID": "Notification_Quick_Menu_Unavailable",
+            "_Text": "Quick menu is currently unavailable"
+         },
+         {
+            "_ID": "Notification_Screen_Unavailable",
+            "_Text": "Screen is currently unavailable"
+         },
+         {
+            "_ID": "Notification_Temperature",
+            "_Text": "Screen temperature too high. System will\\nswitch off soon to avoid being damaged."
+         },
+         {
+            "_ID": "Notification_Volume_Unavailable",
+            "_Text": "Volume controls are currently unavailable"
+         },
+         {
+            "_ID": "Notification_WiFi_Unavailable",
+            "_Text": "Wi-Fi is currently unavailable"
+         },
+         {
+            "_ID": "PIN_Entry_Help_Text",
+            "_Text": "Angiv pinkode"
+         },
+         {
+            "_ID": "PIN_Entry_Main_Text",
+            "_Text": "Please enter the\\nPIN for your\\nBluetooth device"
+         },
+         {
+            "_ID": "Pairing_Failed_Headline",
+            "_Text": "Bluetooth audio output"
+         },
+         {
+            "_ID": "Pairing_Failed_Main_Text",
+            "_Text": "Forbindelsen mislykkedes"
+         },
+         {
+            "_ID": "Pairing_Failed_Wrong_PIN_Headline",
+            "_Text": "Bluetooth audio output"
+         },
+         {
+            "_ID": "Pairing_Failed_Wrong_PIN_Main_Text",
+            "_Text": "Forbindelsen mislykkedes"
+         },
+         {
+            "_ID": "Password_Speller_Help_Text",
+            "_Text": "Angiv adgangskode"
+         },
+         {
+            "_ID": "Quick_Menu_Full_Screen",
+            "_Text": "Fuld skærm"
+         },
+         {
+            "_ID": "Quick_Menu_Help",
+            "_Text": "Brugervejledning"
+         },
+         {
+            "_ID": "Quick_Menu_Screen_Off",
+            "_Text": "Sluk skærm"
+         },
+         {
+            "_ID": "Quick_Menu_Settings",
+            "_Text": "Indstillinger"
+         },
+         {
+            "_ID": "Quick_Menu_Source",
+            "_Text": "Kilde"
+         },
+         {
+            "_ID": "Remote_Crosslink_Notification",
+            "_Text": "Source changed - crosslink active"
+         },
+         {
+            "_ID": "Remote_HDMI_Notification",
+            "_Text": "Source changed - HDMI active"
+         },
+         {
+            "_ID": "Rename_Device_Headline",
+            "_Text": "Rename device"
+         },
+         {
+            "_ID": "Reset_Browser_Headline",
+            "_Text": "Reset browser"
+         },
+         {
+            "_ID": "Reset_Browser_Main_Text",
+            "_Text": "Are you sure you want to reset the browser?\\nAll account information will be lost\\nand you will need to log in again."
+         },
+         {
+            "_ID": "Screen_Off_Notification",
+            "_Text": "Please tap the screen to switch on"
+         },
+         {
+            "_ID": "Screen_Timeout_Headline",
+            "_Text": "Skærmens timeout"
+         },
+         {
+            "_ID": "Settings_Headline",
+            "_Text": "Indstillinger"
+         },
+         {
+            "_ID": "Shutting_Down_Notification",
+            "_Text": "Systemet lukker ned..."
+         },
+         {
+            "_ID": "Software_Legals_Headline",
+            "_Text": "Juridiske informationer"
+         },
+         {
+            "_ID": "Software_Reset_Headline",
+            "_Text": "Gendan fabriksindstillinger"
+         },
+         {
+            "_ID": "Software_Reset_Main_Text",
+            "_Text": "By restoring the system, all settings will be\\nreset. All personal data including saved\\nnetworks, Bluetooth devices and passwords\\nwill be deleted.\\n\\nAre you sure you want to reset?"
+         },
+         {
+            "_ID": "Software_Reset_Successful_Headline",
+            "_Text": "Gendan fabriksindstillinger"
+         },
+         {
+            "_ID": "Software_Reset_Successful_Main_Text",
+            "_Text": "Factory settings have been restored\\nSystem will restart shortly"
+         },
+         {
+            "_ID": "Software_Update_Headline",
+            "_Text": "Software"
+         },
+         {
+            "_ID": "Software_Version_Headline",
+            "_Text": "Softwareinformationer"
+         },
+         {
+            "_ID": "Software_Version_Main_Text",
+            "_Text": "Software-version"
+         },
+         {
+            "_ID": "Source_Device_Menu_Text",
+            "_Text": "Content from your device"
+         },
+         {
+            "_ID": "Source_HDMI_Menu_Text",
+            "_Text": "HDMI"
+         },
+         {
+            "_ID": "Source_Headline",
+            "_Text": "Kilde"
+         },
+         {
+            "_ID": "Source_Netflix_Menu_Text",
+            "_Text": "Netflix"
+         },
+         {
+            "_ID": "Source_Screensaver_Menu_Text",
+            "_Text": "Pauseskærm"
+         },
+         {
+            "_ID": "Timeout_Option_1",
+            "_Text": "Aldrig"
+         },
+         {
+            "_ID": "Timeout_Option_2",
+            "_Text": "30 seconds"
+         },
+         {
+            "_ID": "Timeout_Option_3",
+            "_Text": "1 minute"
+         },
+         {
+            "_ID": "Timeout_Option_4",
+            "_Text": "5 minutes"
+         },
+         {
+            "_ID": "Timeout_Option_5",
+            "_Text": "10 minutes"
+         },
+         {
+            "_ID": "Timeout_Option_6",
+            "_Text": "30 minutes"
+         },
+         {
+            "_ID": "Timeout_Preview_Option_1",
+            "_Text": "Aldrig"
+         },
+         {
+            "_ID": "Timeout_Preview_Option_2",
+            "_Text": "30 seconds"
+         },
+         {
+            "_ID": "Timeout_Preview_Option_3",
+            "_Text": "1 minute"
+         },
+         {
+            "_ID": "Timeout_Preview_Option_4",
+            "_Text": "5 minutes"
+         },
+         {
+            "_ID": "Timeout_Preview_Option_5",
+            "_Text": "10 minutes"
+         },
+         {
+            "_ID": "Timeout_Preview_Option_6",
+            "_Text": "30 minutes"
+         },
+         {
+            "_ID": "Update_Available_Headline",
+            "_Text": "Softwareopdatering"
+         },
+         {
+            "_ID": "Update_Available_Main_Text",
+            "_Text": "Software update available\\nDownload now?"
+         },
+         {
+            "_ID": "Update_Unavailable_Headline",
+            "_Text": "Softwareopdatering"
+         },
+         {
+            "_ID": "Update_Unavailable_Main_Text",
+            "_Text": "Unable to check for updates\\nPlease try again later"
+         },
+         {
+            "_ID": "Use_Extension_Headline",
+            "_Text": "Bemærk"
+         },
+         {
+            "_ID": "Use_Extension_Main_Text_PL",
+            "_Text": "The Bentley Entertainment System\\nwill shut down in {0} seconds.\\nPress OK to extend use."
+         },
+         {
+            "_ID": "Use_Extension_Main_Text_SG",
+            "_Text": "The Bentley Entertainment System\\nwill shut down in {0} second.\\nPress OK to extend use."
+         },
+         {
+            "_ID": "Wi-Fi_Status",
+            "_Text": "INPUT"
+         },
+         {
+            "_ID": "WiFi_Headline",
+            "_Text": "Wi-Fi input"
+         }
+      ],
+      "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "_langCode": "0406",
+      "_xsi:noNamespaceSchemaLocation": "HMILinguist_Texts.xsd"
+   }
+}
