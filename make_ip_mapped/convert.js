@@ -13,10 +13,12 @@ var convert = function(filepath){
 
     Object.keys(clientdata).forEach(function(key, val){
         var pos = keymap[key]
-        console.log(pos)
+        //console.log(pos)
         if(pos.length == 0)
         {
             result[key] = clientdata[key]
+            //console.log(key)
+            //console.log('fuck')
         }
         else 
         {
@@ -31,7 +33,8 @@ var convert = function(filepath){
                     core = {}
                     core[element[i]] = JSON.parse(tmp)
                 }
-                console.log(core)
+                //console.log(result)
+                //console.log(core)
                 merge(result,core)
     
 
@@ -43,7 +46,7 @@ var convert = function(filepath){
 
     });
     
-    console.log(result)
+    //console.log(result)
     return result
 }
 
@@ -67,14 +70,15 @@ var parseclientJson = function(filepath)
 
 //parseclientJson('English_28US29.json')
 //console.log(clear[ 'setting', 'updateSubMenu', 'cancelDownload' ])
-//onvert('English_28US29_2.json')
-
+var data = convert('./parsejson/English_28US29.json')
+//console.log(data)
+/*
 var rawjsonls = fs.readdirSync('../rawjson')
 //console.log(fs.readdirSync('../rawjson'))
 rawjsonls.forEach(element => {
     data = parseclientJson(path.join('../rawjson',element) )
     console.log(data)
-});
+});*/
 
 var parsejsonls = fs.readdirSync('./parsejson')
 console.log(parsejsonls)
@@ -83,3 +87,21 @@ parsejsonls.forEach(element => {
     fs.writeFileSync(path.join('./finish/')+path.parse(element).name+'.json',JSON.stringify(data))
 
 });
+
+
+
+var finishlist = fs.readdirSync('./finish')
+console.log(finishlist)
+finishlist.forEach(element => {
+    data = fs.readFileSync(path.join('./finish',element),'UTF8')
+    data = data.replace(/(\\\\n)/g,'\\n')
+    //console.log(data)
+    fs.writeFileSync(path.join('./finish',element) , data)
+})
+
+/*
+data = fs.readFileSync(path.join('./finish','Taiwanese.json'),'UTF8')
+data = data.replace(/(\\\\n)/g,'\\n')
+//console.log(data)
+fs.writeFileSync(path.join('./finish','Taiwanese.json') , data)
+*/
